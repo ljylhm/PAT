@@ -42,15 +42,4 @@ public class Three {
 		return times;
 	}
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-	    Three three = new Three();
-	    int times = three.getTimesByWhile(3);
-	   /* int times = three.getTimes(3,0);*/
-	    System.out.println(times);
-        
-	}
-
-
 }
