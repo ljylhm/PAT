@@ -4,13 +4,14 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		/*Three three = new Three();*/
-	    /*int times = three.getTimesByWhile(3);
-		String str = getAllNum.changeNum(3);*/
-		
+		Three three = new Three();
 		GetAllNum getAllNum = new GetAllNum();
-		System.out.println(getAllNum.CountAll("1237897948798"));
-		System.out.println("    "+123);
+		Pass pass = new Pass();
+		String str01[] = pass.main();
+		for(int i=0;i<str01.length;i++){
+			System.out.println(str01[i]);
+		}
+	
 	}
 
 }
